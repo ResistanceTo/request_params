@@ -11,6 +11,7 @@ def format_headers(headers_str: str, no_colon: bool = True) -> dict:
     data = {}
     headers_list = headers_str.split("\n")
     for header in headers_list:
+        header = header.lstrip()
         if header == "":
             continue
         if header.startswith(":"):

@@ -6,7 +6,7 @@ with open("README.md", "r") as f:
 
 setup(
     name="request_params",
-    version="0.0.1",
+    version="0.0.3",
     description="format request params",
     long_description=long_description,
     author="ResistanceTo",
